@@ -29,7 +29,7 @@ This instructional will help guide you in testing this project at home
 
 ```
 
-python3 LedDisplay.py
+$python3 LedDisplay.py
 
 ```
 
