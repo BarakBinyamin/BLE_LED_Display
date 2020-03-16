@@ -11,7 +11,7 @@ The provided sketch turns on one LED when a any value other than 0 is written to
 - arduino IDE, the Beta version is suggested for linux
 
 
-### setup
+### Setup
 
 - download the "starter_BLE_LED.ino" 
 - make sure the right device is chosen on the arduino IDE, seen in bottom right corner
