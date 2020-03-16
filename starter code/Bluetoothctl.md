@@ -18,7 +18,7 @@ how to download coming soon
 ### Talking with the arduino
 
 
-open blutoothctl, ctrl + alt + t will open a terminal
+open blutoothctl, ctrl+alt+t will open a terminal on linux
 
 ```
 $blutoothctl
