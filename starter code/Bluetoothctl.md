@@ -6,7 +6,6 @@ This  project combines the nano ble 33, python, and bash to create a blueetooth 
 ## Getting Started
 
 These instructions will give you the tools necessary to comunicate with an arduino nano 33 ble.
-There will be additional instructions at the end for how to use this projects GUI
 
 ### Prerequisites
 
@@ -93,4 +92,4 @@ then you are ready to write values
 
 ## Recources/Acknowledgments
 
-https://github.com/arduino-libraries/ArduinoBLE/blob/master/examples/Peripheral/LED/LED.ino
+coming soon
