@@ -37,9 +37,9 @@ $python3 LedDisplay.py
 ## Built With
 
 
--arduino
--python wx
--bash 
+- arduino
+- python wx
+- bash 
 
 
 ## Acknowledgments
