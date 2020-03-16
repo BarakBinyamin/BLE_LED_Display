@@ -1,0 +1,2 @@
+./connect.sh | bluetoothctl
+
