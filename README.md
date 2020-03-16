@@ -10,8 +10,8 @@ This instructional will help guide you in testing this project at home
 ### Prerequisites
 
 - circuit setup prerequisites
-- python3 
 - bash command line
+- python3
 
 
 ### setup steps
