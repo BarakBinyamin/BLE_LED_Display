@@ -27,11 +27,12 @@ This instructional will help guide you in testing this project at home
 -navigate to the GUI in the command line
 -run the python gui
 
-'''
+```
 
 python3 LedDisplay.py
 
-'''
+```
+
 
 ## Built With
 
