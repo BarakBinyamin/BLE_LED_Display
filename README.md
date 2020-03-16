@@ -3,6 +3,8 @@
 
 This project combines the nano ble 33, python, and bash to create a blueetooth LED display
 
+take a look at the starter code for how-to instructions
+
 ## Getting Started
 
 This instructional will help guide you in testing this project at home
