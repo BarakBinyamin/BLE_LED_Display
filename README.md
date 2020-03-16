@@ -16,16 +16,16 @@ This instructional will help guide you in testing this project at home
 
 ### setup steps
 
--follow circuit setup
--download the repository
--upload the sketch "BLEArduino.ino" (found in arduino sketches) to the arduino
--make all the bash scripts excecutable
+- follow circuit setup
+- download the repository
+- upload the sketch "BLEArduino.ino" (found in arduino sketches) to the arduino
+- make all the bash scripts excecutable
 
 ## Deployment
 
--power up the arduino
--navigate to the GUI in the command line
--run the python gui
+- power up the arduino
+- navigate to the GUI in the command line
+- run the python gui
 
 ```
 
