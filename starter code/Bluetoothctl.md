@@ -78,8 +78,7 @@ select the attribute
 [Arduino]: select-attribute /org/bluez/hci0/dev_F1_05_50_46_F1_9E/service000a/char000b
 ```
 
-Almost Done! If The command line header changed from "Arduino" to "/org/bluez/hci0/dev_F1_05_50_46_F1_9E/service000a/char000b"
-then you are ready to write values
+write a value
 
 ```
 [/org/bluez/hci0/dev_F1_05_50_46_F1_9E/service000a/char000b]: write 1
