@@ -8,12 +8,6 @@ These instructions will give you the tools necessary to comunicate with an ardui
 ### Prerequisites
 
 - bluetoothctl
-- python and wxpython
-- arduino library for the nano ble
-
-```
-how to download coming soon
-```
 
 ### Talking with the arduino
 
@@ -24,19 +18,24 @@ open blutoothctl, ctrl+alt+t will open a terminal on linux
 $blutoothctl
 ```
 
+The command line header should have also changed to "bluetooth":
+
+[bluetooth]:
+
+
 Now we need to find the device, look for the name arduino or LED, then copy the mac adress and paste it after "connect"
 
-should look like this
-```
+should look like this:
+
 [NEW] Device F1:05:50:46:F1:9E Arduino
+
+connect to the arduino:
+
+```
+ [bluetooth]: connect F1:05:50:46:F1:9E
 ```
 
-(copy and pase)
-```
-[bluetooth]: connect F1:05:50:46:F1:9E
-```
-
-If there was no message other than "attempting to connect" then you are not connected, try again.
+If there was no message other than "attempting to connect" then you are not connected, try again/ or reset the arduino.
 The command line header should have also changed from "bluetooth" to "Arduino" or the name of your service
 
 The next step is to open gatt
@@ -50,7 +49,7 @@ The next step is to open gatt
 ```
 
 This is what should be seen
-```
+
 [NEW] Device F1:05:50:46:F1:9E Arduino
 [NEW] Primary Service
 	/org/bluez/hci0/dev_F1_05_50_46_F1_9E/service000a
@@ -71,7 +70,7 @@ This is what should be seen
 [NEW] Descriptor
 	/org/bluez/hci0/dev_F1_05_50_46_F1_9E/service0006/char0007/desc0009
 	00002902-0000-1000-8000-00805f9b34fb
-```
+
 
 copy and paste the first line of the characteristic that your looking for
 
