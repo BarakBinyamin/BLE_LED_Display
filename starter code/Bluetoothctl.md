@@ -18,16 +18,17 @@ open blutoothctl, ctrl+alt+t will open a terminal on linux
 $blutoothctl
 ```
 
-The command line header should have also changed to "bluetooth":
 
-[bluetooth]:
+Now we need to find the device, look for the name arduino or LED
 
+```
+ [bluetooth]: scan on
+```
 
-Now we need to find the device, look for the name arduino or LED, then copy the mac adress and paste it after "connect"
+In the midst of all the other devices listed, the one to be looking for should look like this:
 
-should look like this:
+**[NEW] Device F1:05:50:46:F1:9E Arduino**  
 
-[NEW] Device F1:05:50:46:F1:9E Arduino
 
 connect to the arduino:
 
@@ -72,7 +73,7 @@ This is what should be seen
 	00002902-0000-1000-8000-00805f9b34fb  
 
 
-select the attribute
+select the service attribute to comunicate with the arduino
 
 ```
 [Arduino]: select-attribute /org/bluez/hci0/dev_F1_05_50_46_F1_9E/service000a/char000b
