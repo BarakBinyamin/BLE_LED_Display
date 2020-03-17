@@ -56,7 +56,7 @@ This is what should be seen
 	19b10000-e8f2-537e-4f6c-d104768a1214  
 	Vendor specific  
 [NEW] Characteristic  
-	/org/bluez/hci0/dev_F1_05_50_46_F1_9E/service000a/char000b  
+	**/org/bluez/hci0/dev_F1_05_50_46_F1_9E/service000a/char000b**  
 	19b10001-e8f2-537e-4f6c-d104768a1214  
 	Vendor specific  
 [NEW] Primary Service  
@@ -72,7 +72,7 @@ This is what should be seen
 	00002902-0000-1000-8000-00805f9b34fb  
 
 
-copy and paste the first line of the characteristic that your looking for
+select the attribute
 
 ```
 [Arduino]: select-attribute /org/bluez/hci0/dev_F1_05_50_46_F1_9E/service000a/char000b
@@ -89,4 +89,4 @@ then you are ready to write values
 
 ## Recources/Acknowledgments
 
-coming soon
+https://docs.ubuntu.com/core/en/stacks/bluetooth/bluez/docs/reference/gatt-services
