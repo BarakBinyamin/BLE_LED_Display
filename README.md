@@ -3,7 +3,7 @@
 
 
 [<img src=BleLedDisplay.jpg width="50%">](https://drive.google.com/file/d/10mbBYcsFOb69pqGXkvFZSVgYJSiTx8mM/view?usp=sharing)
-click picture to see video
+  <--     click to see video
 
 
 This project combines the nano ble 33, python, and bash to create a blueetooth LED display
