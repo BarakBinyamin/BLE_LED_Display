@@ -1,7 +1,7 @@
 
 # Starter code
 
-Basic instructiona, easy to use and easy to change code
+Basic instructional, easy to use and easy to change code
 
 
 ## Walkthroughs
