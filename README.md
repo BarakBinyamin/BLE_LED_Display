@@ -26,7 +26,13 @@ This instructional will help guide you in testing this project at home
 - follow circuit setup
 - download the repository
 - upload the sketch "BLEArduino.ino" (found in arduino sketches) to the arduino
-- make all the bash scripts excecutable
+- make the bash scripts found in GUI excecutable
+
+how to make a file excecutable
+
+```
+$sudo chmod +x FILENAME
+```
 
 ## Deployment
 
