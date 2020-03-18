@@ -31,7 +31,7 @@ void setup() {
   // set LED pin to output mode
   for(int i=2; i<=12; i++){pinMode(i, OUTPUT);}
 
-  //set all leds off, set all pin indexes to High, its counter intuitive but the voltage change is how the LED's turn on
+  //set all leds off, set all pin indeces to High, its counter intuitive but the voltage change is how the LED's turn on
   for (int a = 0; a < 50; a++) {
     RowColumn[a]=1;}
     
