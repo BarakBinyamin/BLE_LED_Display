@@ -57,6 +57,7 @@ $python3 LedDisplay.py
 
 ## Acknowledgments
 
-
-coming soon
+https://github.com/arduino-libraries/ArduinoBLE/blob/master/examples/Peripheral/LED/LED.ino
+https://www.arduino.cc/en/Guide/NANO33BLE
+https://docs.ubuntu.com/core/en/stacks/bluetooth/bluez/docs/reference/gatt-services
 
