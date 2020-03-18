@@ -37,7 +37,7 @@ $sudo chmod +x FILENAME
 ## Deployment
 
 - power up the arduino
-- navigate to the GUI in the command line
+- navigate to the GUI folder in the command line
 - run the python gui
 
 ```
