@@ -19,6 +19,7 @@ This instructional will help guide you in testing this project at home
 - circuit setup prerequisites
 - bash command line
 - python3
+- wxPython
 
 
 ### setup steps
