@@ -16,7 +16,7 @@ This instructional will help guide you in testing this project at home
 
 ### Prerequisites
 
-- circuit setup prerequisites
+- circuit setup prerequisites https://github.com/BarakBinyamin/LED-Display/blob/master/README.md
 - bash command line
 - python3
 - wxPython
