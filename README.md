@@ -16,8 +16,8 @@ This instructional will help guide you in testing this project at home
 
 ### Prerequisites
 
-- [circuit setup prerequisites](https://github.com/BarakBinyamin/LED-Display/blob/master/README.md)
-- bash command line
+- [circuit setup prerequisites](https://github.com/BarakBinyamin/LED-Display/blob/master/README.md), refer the [provided arduino sketch] for the correct pinout with the nano ble 33
+-" bash command line
 - python3
 - wxPython
 
