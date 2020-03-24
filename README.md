@@ -16,7 +16,7 @@ This instructional will help guide you in testing this project at home
 
 ### Prerequisites
 
-- [circuit setup prerequisites](https://github.com/BarakBinyamin/LED-Display/blob/master/README.md), refer the [provided arduino sketch] for the correct pinout with the nano ble 33
+- [circuit setup prerequisites](https://github.com/BarakBinyamin/LED-Display/blob/master/README.md), in this project Digital IO pins 2-6 control colunms 0-4, and Digital IO pins 7-11 control rows 0-4.
 -" bash command line
 - python3
 - wxPython
