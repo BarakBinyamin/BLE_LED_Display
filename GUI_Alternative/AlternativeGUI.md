@@ -1,8 +1,7 @@
 
 # Alternative GUI
 
-
-[<img src=BLE_LedDisplay.jpg width="50%">](https://drive.google.com/file/d/1dxTI01UZD03h1vYZ8bcPw23mdWKPQFrs/view?usp=sharing)
+<img src= GUIAlternative.gif width="14.7%">
   <--     click to see video  
 
 
