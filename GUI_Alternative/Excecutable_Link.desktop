@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Five by Five
+Path=~/Desktop/Five_by_Five
+Exec=~/Desktop/Five_by_Five/Five_by_Five
+Icon=~/Desktop/Five_by_Five/LED.png
+Comment[en_US]=Five by Five
+Terminal=false
+
+
+Name[en_US]=Excecutable_Link.desktop
