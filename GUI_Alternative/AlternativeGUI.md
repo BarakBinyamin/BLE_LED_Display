@@ -1,7 +1,7 @@
 
 # Alternative GUI
 
-<img src= GUIAlternative.gif width="14.7%">
+<img src= GUIAlternative.gif>
   <--     click to see video  
 
 
