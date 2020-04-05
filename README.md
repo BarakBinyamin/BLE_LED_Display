@@ -12,45 +12,26 @@ Take a look at the starter code for how-to instructions
 
 ## Getting Started
 
-This instructional will help guide you in testing this project at home
+Run these commands to install the GUI
+```
+cd 
+git clone https://github.com/BarakBinyamin/BLE_LED_Display.git  
+chmod +x ~/BLE_LED_Display/GUI_/Install.sh
+bash ~/BLE_LED_Display/GUI_/Install.sh
+```
 
 ### Prerequisites
 
 - [circuit setup prerequisites](https://github.com/BarakBinyamin/LED-Display/blob/master/README.md), in this project Digital IO pins 2-6 control colunms 0-4, and Digital IO pins 7-11 control rows 0-4.
-- bash command line
+- linux
 - python3
-- wxPython
-
-
-### setup steps
-
-- follow circuit setup
-- download the repository
-- upload the sketch "BLEArduino.ino" (found in arduino sketches) to the arduino
-- make the bash scripts found in the GUI folder excecutable
-
-For each file with ending in ".sh"
-
-```
-$sudo chmod +x FILENAME
-```
 
 ## Deployment
 
 - power up the arduino
-- navigate to the GUI folder in the command line
-- run the python gui
-
-```
-
-$python3 LedDisplay.py
-
-```
-
+- trust and launch the appliaction
 
 ## Built With
-
-
 - arduino
 - python wx
 - bash 
