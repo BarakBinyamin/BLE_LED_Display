@@ -6,7 +6,7 @@ block_cipher = None
 a = Analysis(['Path/BLE_LED_Display/GUI_/LED_GUI.py'],
              pathex=['Path'],
              binaries=[],
-             datas=[("Path/GUI_/connect.sh","."),
+             datas=[("Path/BLE_LED_Display/GUI_/connect.sh","."),
 ("Path/BLE_LED_Display/GUI_/LED.png","."),
 ("Path/BLE_LED_Display/GUI_/LEDoff.png", "."),
 ("Path/BLE_LED_Display/GUI_/LEDon.png","."),
