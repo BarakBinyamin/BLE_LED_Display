@@ -47,7 +47,7 @@ Copy the Excecutable_Link.desktop to your desktop, and edit the file locations
 
 ## Deployment
 
-- [ x ] click the Excecutable_Link.desktop and trust it
+-[ x ] click the Excecutable_Link.desktop and trust it
 
 
 
