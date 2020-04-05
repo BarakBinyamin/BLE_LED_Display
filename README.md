@@ -42,7 +42,6 @@ https://github.com/arduino-libraries/ArduinoBLE/blob/master/examples/Peripheral/
 https://www.arduino.cc/en/Guide/NANO33BLE  
 https://docs.ubuntu.com/core/en/stacks/bluetooth/bluez/docs/reference/gatt-services
 https://wiki.wxpython.org/How%20to%20install%20wxPython
-https://pypi.org/project/auto-py-to-exe/  
 https://wiki.archlinux.org/index.php/Desktop_entries  
 https://developer.gnome.org/integration-guide/stable/desktop-files.html.en  
 
