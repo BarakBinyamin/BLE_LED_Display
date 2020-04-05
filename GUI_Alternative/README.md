@@ -38,7 +38,7 @@ At this point you should see a window pop up,
 
 ## Deployment
 
-- [x] click the Excecutable_Link.desktop and trust it
+:heavy_check_mark: click the Excecutable_Link.desktop and trust it
 
 
 
