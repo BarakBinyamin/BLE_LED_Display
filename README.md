@@ -38,10 +38,10 @@ bash ~/BLE_LED_Display/GUI_/Install.sh
 
 ## Acknowledgments
 
-https://github.com/arduino-libraries/ArduinoBLE/blob/master/examples/Peripheral/LED/LED.ino  
-https://www.arduino.cc/en/Guide/NANO33BLE  
-https://docs.ubuntu.com/core/en/stacks/bluetooth/bluez/docs/reference/gatt-services
-https://wiki.wxpython.org/How%20to%20install%20wxPython
-https://wiki.archlinux.org/index.php/Desktop_entries  
-https://developer.gnome.org/integration-guide/stable/desktop-files.html.en  
+[Arduino Libraries](https://github.com/arduino-libraries/ArduinoBLE/blob/master/examples/Peripheral/LED/LED.ino)     
+[Guide to Nano ble 33](https://www.arduino.cc/en/Guide/NANO33BLE)     
+[Guide to bluetooth control](https://docs.ubuntu.com/core/en/stacks/bluetooth/bluez/docs/reference/gatt-services)  
+[Wx python](https://wiki.wxpython.org/How%20to%20install%20wxPython)  
+[Information on Desktop applications](https://wiki.archlinux.org/index.php/Desktop_entries)  
+[guide to linux Desktop applications](https://developer.gnome.org/integration-guide/stable/desktop-files.html.en) 
 
