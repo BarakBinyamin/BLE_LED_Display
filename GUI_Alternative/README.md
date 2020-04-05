@@ -4,14 +4,11 @@
 <img src= GUIAlternative.gif>
 
 
-This alternative GUI is more user friendly, and aesthetically pleasing
-
-Whats new?
-- intuitive controls and resizable elements
-
-
 ## Getting Started
 
+This alternative GUI is more user friendly and aesthetically pleasing.   
+It has intuitive controls and resizable elements.  
+  
 Follow these steps to get it up and running
 
 ### Prerequisites
