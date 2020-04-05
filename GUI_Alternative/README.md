@@ -16,7 +16,7 @@ Follow these steps to get it up and running
 - auto-Py-to-exe  ``` $ pip install auto-py-to-exe  ```
 
 
-### setup steps
+### Setup steps
 
 - download this repo and navigate to the GUI_Alternative Folder
 - right click and open a terminal from the GUI_Alternative Folder
