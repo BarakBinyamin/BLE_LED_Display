@@ -44,19 +44,10 @@ ALMOST DONE!
 move the output folder somewhere you can find it  
 Copy the Excecutable_Link.desktop to your desktop, and edit the file locations  
 
-[Desktop Entry]  
-Type=Application  
-Name= NAME_YOU_WANT  
-Path= Location/of/folderContaingExcecutable  
-Exec= Location/of/excecutable  
-Icon= Location/of/folderContaingIcon  
-Comment[en_US]= Five by Five GUI  
-Terminal=false  
-
 
 ## Deployment
 
-[x] click the Excecutable_Link.desktop and trust it
+- [ x ] click the Excecutable_Link.desktop and trust it
 
 
 
