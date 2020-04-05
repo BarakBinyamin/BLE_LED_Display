@@ -44,7 +44,7 @@ At this point you should see a window pop up,
 
 ## Acknowledgments
 
-https://pypi.org/project/auto-py-to-exe/
-https://wiki.archlinux.org/index.php/Desktop_entries
-https://developer.gnome.org/integration-guide/stable/desktop-files.html.en
+https://pypi.org/project/auto-py-to-exe/  
+https://wiki.archlinux.org/index.php/Desktop_entries  
+https://developer.gnome.org/integration-guide/stable/desktop-files.html.en  
 
