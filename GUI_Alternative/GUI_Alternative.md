@@ -56,7 +56,7 @@ Terminal=false
 
 ## Deployment
 
-[ x ] click the Excecutable_Link.desktop and trust it
+[x] click the Excecutable_Link.desktop and trust it
 
 
 
