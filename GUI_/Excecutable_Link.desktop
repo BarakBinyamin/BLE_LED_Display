@@ -1,9 +1,9 @@
 [Desktop Entry]
 Type=Application
 Name=LED GUI
-Path=Path/Dist/LED_GUI
-Exec=Path/Dist/LED_GUI/LED_GUI
-Icon=Path/Dist/LED_GUI/LED.png
+Path=path/Dist/LED_GUI
+Exec=path/Dist/LED_GUI/LED_GUI
+Icon=path/Dist/LED_GUI/LED.png
 Comment[en_US]=LED GUI
 Terminal=false
 
