@@ -32,7 +32,7 @@ install auto-Py-to-exe
 - run auto-py-to-exe, ```$ auto-py-to-exe```
 
 At this point you should see a window pop up, 
-<img src= GUIAlternative.gif>
+<img src= "https://github.com/BarakBinyamin/BLE_LED_Display/blob/master/GUI_Alternative/Auto-Py-to-exe.png">
 
 - Select browse next to the "Script Loactaion" textbox --> "files of type" --> "All Files"
 - select "GUI_Alternative.py"
