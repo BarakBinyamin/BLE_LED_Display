@@ -1,5 +1,5 @@
 /*
-  5x5 LED Display
+  5x5 LED Display  
   This example creates a BLE peripheral with service that contains a
   characteristic to control an LED Display.
   The circuit:
