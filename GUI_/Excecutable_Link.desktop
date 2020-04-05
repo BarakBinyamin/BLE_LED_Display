@@ -6,6 +6,3 @@ Exec=path/dist/LED_GUI/LED_GUI
 Icon=path/dist/LED_GUI/LED.png
 Comment[en_US]=LED GUI
 Terminal=false
-
-
-Name[en_US]=Excecutable_Link.desktop
