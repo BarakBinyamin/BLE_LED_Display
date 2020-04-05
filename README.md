@@ -33,7 +33,7 @@ bash ~/BLE_LED_Display/GUI_/Install.sh
 Take a look at the [starter code](https://github.com/BarakBinyamin/BLE_LED_Display/tree/master/starter%20code) for examples and walkthroughs to build your own bluetooth arduino sketch
 ## Recources
 
-- [Arduino Libraries](https://github.com/arduino-libraries/ArduinoBLE/blob/master/examples/Peripheral/LED/LED.ino)     
+- [Blutooth Arduino example](https://github.com/arduino-libraries/ArduinoBLE/blob/master/examples/Peripheral/LED/LED.ino)     
 - [Guide to Nano ble 33](https://www.arduino.cc/en/Guide/NANO33BLE)     
 - [Guide to bluetooth control](https://docs.ubuntu.com/core/en/stacks/bluetooth/bluez/docs/reference/gatt-services)  
 - [Wx python](https://wiki.wxpython.org/How%20to%20install%20wxPython)  
