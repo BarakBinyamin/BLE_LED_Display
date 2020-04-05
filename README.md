@@ -7,8 +7,6 @@
 
 This project combines the [nano ble 33](https://www.amazon.com/Arduino-Nano-33-BLE-Sense/dp/B07WV5GF17/ref=sr_1_4?dchild=1&keywords=nano+ble+33&qid=1586111070&sr=8-4), python, and bash to create a blueetooth LED display and GUI
 
-Take a look at the starter code for how-to instructions
-
 ## Getting Started
 
 Run these commands to install the GUI
@@ -27,15 +25,12 @@ bash ~/BLE_LED_Display/GUI_/Install.sh
 
 ## Deployment
 
-- power up the arduino
-- trust and launch the appliaction
+1. Upload the [sketch](https://github.com/BarakBinyamin/BLE_LED_Display/blob/master/Arduino%20sketches/BLEArduino.ino)
+2. Power up the arduino
+3. Trust and launch the appliaction
 
-## Built With
-- arduino
-- python wx
-- bash 
-
-
+## Going Further
+Take a look at the [starter code](https://github.com/BarakBinyamin/BLE_LED_Display/tree/master/starter%20code) for examples and walkthroughs to build your own bluetooth arduino sketch
 ## Recources
 
 - [Arduino Libraries](https://github.com/arduino-libraries/ArduinoBLE/blob/master/examples/Peripheral/LED/LED.ino)     
