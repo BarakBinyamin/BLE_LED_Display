@@ -43,7 +43,7 @@ At this point you should see a window pop up,
 
 
 ## Acknowledgments
-
+https://wiki.wxpython.org/How%20to%20install%20wxPython
 https://pypi.org/project/auto-py-to-exe/  
 https://wiki.archlinux.org/index.php/Desktop_entries  
 https://developer.gnome.org/integration-guide/stable/desktop-files.html.en  
