@@ -13,8 +13,7 @@ Follow these steps to get it up and running
 
 ### Prerequisites
 - linux
-- auto-Py-to-exe
-- install auto-Py-to-exe ``` $ pip install auto-py-to-exe  ```
+- auto-Py-to-exe  ``` $ pip install auto-py-to-exe  ```
 
 
 ### setup steps
