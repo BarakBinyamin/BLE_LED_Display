@@ -21,8 +21,8 @@ Follow these steps to get it up and running
 - download this repo and navigate to the GUI_Alternative Folder
 - right click and open a terminal from the GUI_Alternative Folder
 - make the bash scripts found in the GUI folder excecutable
-- make all the files ending in.sh excecutable, ```$sudo chmod +x FILENAME ```
-- run auto-py-to-exe, ```$ auto-py-to-exe```
+- make all the files ending in.sh excecutable ```$sudo chmod +x FILENAME ```
+- run auto-py-to-exe ```$ auto-py-to-exe```
 
 At this point you should see a window pop up, 
 <img src= "https://github.com/BarakBinyamin/BLE_LED_Display/blob/master/GUI_Alternative/Auto-Py-to-exe.png">
