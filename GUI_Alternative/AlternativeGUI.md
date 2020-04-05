@@ -5,59 +5,65 @@
   <--     click to see video  
 
 
-This project combines the nano ble 33, python, and bash to create a blueetooth LED display and GUI
+This alternative GUI is more user friendly, and aesthetically pleasing
 
-Take a look at the starter code for how-to instructions
+Whats new?
+- intuitive controls and resizable elements
+
 
 ## Getting Started
 
-This instructional will help guide you in testing this project at home
+Follow these steps to get it up and running
 
 ### Prerequisites
+- linux
+- auto-Py-to-exe
 
-- [circuit setup prerequisites](https://github.com/BarakBinyamin/LED-Display/blob/master/README.md), in this project Digital IO pins 2-6 control colunms 0-4, and Digital IO pins 7-11 control rows 0-4.
-- bash command line
-- python3
-- wxPython
+install auto-Py-to-exe
+``` $ pip install auto-py-to-exe  ```
 
 
 ### setup steps
 
-- follow circuit setup
-- download the repository
-- upload the sketch "BLEArduino.ino" (found in arduino sketches) to the arduino
+- download this repo and navigate to the GUI_Alternative Folder
+- right click and open a terminal from the GUI_Alternative Folder
 - make the bash scripts found in the GUI folder excecutable
+- make all the files ending in.sh excecutable, ```$sudo chmod +x FILENAME ```
+- run auto-py-to-exe, ```$ auto-py-to-exe```
 
-For each file with ending in ".sh"
+At this point you should see a window pop up, 
+<img src= GUIAlternative.gif>
 
-```
-$sudo chmod +x FILENAME
-```
+- Select browse next to the "Script Loactaion" textbox --> "files of type" --> "All Files"
+- select "GUI_Alternative.py"
+- Select "Window Based"
+- Select "Additional Files" --> add all of the following files: connect.sh, LED.png, LEDoff.png, LEDon.png, script2.sh, theWrite.sh, write.sh, write2.sh, writeArray.sh
+- Convert Py to Exe
+
+ALMOST DONE!
+
+move the output folder somewhere you can find it
+Copy the Excecutable_Link.desktop to your desktop, and edit the file locations
+
+[Desktop Entry]
+Type=Application
+Name= NAME_YOU_WANT
+Path= Location/of/folderContaingExcecutable
+Exec= Location/of/excecutable
+Icon= Location/of/folderContaingIcon
+Comment[en_US]= Five by Five GUI
+Terminal=false
+
 
 ## Deployment
 
-- power up the arduino
-- navigate to the GUI folder in the command line
-- run the python gui
+[ x ] click the Excecutable_Link.desktop and trust it
 
-```
-
-$python3 LedDisplay.py
-
-```
-
-
-## Built With
-
-
-- arduino
-- python wx
-- bash 
 
 
 ## Acknowledgments
 
-https://github.com/arduino-libraries/ArduinoBLE/blob/master/examples/Peripheral/LED/LED.ino  
-https://www.arduino.cc/en/Guide/NANO33BLE  
-https://docs.ubuntu.com/core/en/stacks/bluetooth/bluez/docs/reference/gatt-services
+https://pypi.org/project/auto-py-to-exe/
+https://wiki.archlinux.org/index.php/Desktop_entries
+https://developer.gnome.org/integration-guide/stable/desktop-files.html.en
 
