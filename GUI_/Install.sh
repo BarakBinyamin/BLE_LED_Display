@@ -1,7 +1,7 @@
 path="/home/${USER}"
 
-chmod +x ${path}/BLE_LED_Display/GUI_/Initialize.sh
-bash ${path}/BLE_LED_Display/GUI_/Initialize.sh
+chmod +x ${path}/BLE_LED_Display/GUI_/Initialize_files.sh
+bash ${path}/BLE_LED_Display/GUI_/Initialize_files.sh
 
 cd 
 
