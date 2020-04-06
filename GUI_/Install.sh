@@ -1,9 +1,11 @@
 path="/home/${USER}"
 
+chmod +x ${path}/BLE_LED_Display/GUI_/Initialize.sh
+./Initialize.sh
+
 cd 
 
 pip install pyinstaller
-
 
 sed -i "s#Path#${path}#g" ${path}/BLE_LED_Display/GUI_/LED_GUI.spec
 
