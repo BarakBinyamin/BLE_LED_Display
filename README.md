@@ -10,7 +10,7 @@ This project combines the [nano ble 33](https://www.amazon.com/Arduino-Nano-33-B
 ## Getting Started
 
 Run these commands to install the GUI
-```
+```bash
 cd 
 git clone https://github.com/BarakBinyamin/BLE_LED_Display.git  
 chmod +x ~/BLE_LED_Display/GUI_/Install.sh
