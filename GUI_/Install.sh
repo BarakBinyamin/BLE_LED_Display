@@ -1,13 +1,17 @@
 path="/home/${USER}"
 
 goober=$1
+goober2=$2
 
-echo "connect ${goober}" >  ${path}/BLE_LED_Display/GUI_/config.txt
+echo "connect ${goober}" >  ${path}/BLE_LED_Display/GUI_/config1.txt
+echo "select-attribute ${goober2}" > ${path}/BLE_LED_Display/GUI_/config2.txt
 
-pathConfig=${path}/BLE_LED_Display/GUI_/config.txt
+pathConfig1=${path}/BLE_LED_Display/GUI_/config1.txt
+pathConfig2=${path}/BLE_LED_Display/GUI_/config2.txt
 
-#replace the word "GOOBER" in config with the custom configuration 
-printf "'/GOOBER/{r $pathConfig' -e 'd}' ${path}/BLE_LED_Display/GUI_/connect.sh" | xargs sed -i -e
+#replace the word "GOOBER" in config with the custom configuration
+printf "'/GOOBER1/{r $pathConfig1' -e 'd}' ${path}/BLE_LED_Display/GUI_/connect.sh" | xargs sed -i -e
+printf "'/GOOBER2/{r $pathConfig2' -e 'd}' ${path}/BLE_LED_Display/GUI_/connect.sh" | xargs sed -i -e
 
 chmod +x ${path}/BLE_LED_Display/GUI_/Initialize_files.sh
 bash ${path}/BLE_LED_Display/GUI_/Initialize_files.sh
