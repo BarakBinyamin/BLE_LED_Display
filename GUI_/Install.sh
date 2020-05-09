@@ -4,7 +4,7 @@ goober=$1
 goober2=$2
 
 echo "connect ${goober}" >  ${path}/BLE_LED_Display/GUI_/config1.txt
-echo "select-attribute ${goober2}" > ${path}/BLE_LED_Display/GUI_/config2.txt
+echo "select-attribute '${goober2}' " > ${path}/BLE_LED_Display/GUI_/config2.txt
 
 pathConfig1=${path}/BLE_LED_Display/GUI_/config1.txt
 pathConfig2=${path}/BLE_LED_Display/GUI_/config2.txt
