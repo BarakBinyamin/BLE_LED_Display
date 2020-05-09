@@ -8,7 +8,7 @@ sleep 5
 write 2
 EOF'''
 
-echo 'connect F1:05:50:46:F1:9E'
+echo 'connect GOOBER'
 sleep 0.1
 echo 'menu gatt'
 sleep 0.1
