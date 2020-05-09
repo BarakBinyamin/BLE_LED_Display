@@ -34,7 +34,7 @@ In the midst of all the other devices listed, the one to be looking for should l
 **[NEW] Device F1:05:50:46:F1:9E Arduino**  
 
 
-connect to the arduino:
+connect to the arduino using the MAC address seen before the name Arduino,
 
 ```bash
  [bluetooth]: connect F1:05:50:46:F1:9E
