@@ -13,7 +13,7 @@ This project combines the [nano ble 33](https://www.amazon.com/Arduino-Nano-33-B
 - linux
 - python3
 - bluez,  ```sudo apt install bluez```
-- MAC address of the arduino, [find the MAC address](https://github.com/BarakBinyamin/BLE_LED_Display/blob/master/starter%20code/Bluetoothctl.md#bluetoothctl)
+- MAC address and Service attribute of the arduino, [find the MAC address and service attribute](https://github.com/BarakBinyamin/BLE_LED_Display/blob/master/starter%20code/Bluetoothctl.md#bluetoothctl)
 
 ## Getting Started
 
@@ -22,7 +22,7 @@ Run these commands to install the GUI
 cd 
 git clone https://github.com/BarakBinyamin/BLE_LED_Display.git  
 chmod +x ~/BLE_LED_Display/GUI_/Install.sh
-bash ~/BLE_LED_Display/GUI_/Install.sh ARDUINO_MAC_ADDRESS
+bash ~/BLE_LED_Display/GUI_/Install.sh ARDUINO_MAC_ADDRESS SERVICE_ATTRIBUTE
 ```
 
 ## Deployment
