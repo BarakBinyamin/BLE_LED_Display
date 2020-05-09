@@ -1,9 +1,18 @@
 path="/home/${USER}"
 
+goober=$1
+
+$goober >  ${path}/BLE_LED_Display/GUI_/config.txt
+
+pathConfig=${path}/BLE_LED_Display/GUI_/config.txt
+
+#replace the word "GOOBER" in config with the custom configuration 
+printf "'/GOOBER/{r $pathConfig' -e 'd}' ${path}/BLE_LED_Display/GUI_/connect.sh" | xargs sed -i -e
+
 chmod +x ${path}/BLE_LED_Display/GUI_/Initialize_files.sh
 bash ${path}/BLE_LED_Display/GUI_/Initialize_files.sh
 
-cd 
+cd  
 
 pip install pyinstaller
 
