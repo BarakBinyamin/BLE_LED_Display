@@ -25,7 +25,7 @@ bash ~/BLE_LED_Display/GUI_/Install.sh
 - bluez
 
 ```bash
-$sudo apt install bluez
+sudo apt install bluez
 ```
 
 ## Deployment
