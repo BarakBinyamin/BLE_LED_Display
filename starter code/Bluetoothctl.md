@@ -18,14 +18,14 @@ sudo apt install bluez
 
 open blutoothctl, ctrl+alt+t will open a terminal on linux
 
-```
+```bash
 $blutoothctl
 ```
 
 
 Now we need to find the device, look for the name arduino or LED
 
-```
+```bash
  [bluetooth]: scan on
 ```
 
@@ -36,7 +36,7 @@ In the midst of all the other devices listed, the one to be looking for should l
 
 connect to the arduino:
 
-```
+```bash
  [bluetooth]: connect F1:05:50:46:F1:9E
 ```
 
@@ -45,11 +45,11 @@ The command line header should have also changed from "bluetooth" to "Arduino" o
 
 The next step is to open gatt
 
-```
+```bash
 [Arduino]: menu gatt
 ```
 
-```
+```bash
 [Arduino]: list-attributes
 ```
 
@@ -79,7 +79,7 @@ This is what should be seen
 
 select the service attribute to comunicate with the arduino
 
-```
+```bash
 [Arduino]: select-attribute /org/bluez/hci0/dev_F1_05_50_46_F1_9E/service000a/char000b
 ```
 
