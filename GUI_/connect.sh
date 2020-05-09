@@ -1,3 +1,5 @@
+
+#replace the mac-adress, follow  the bluetooth tutorial
 '''bluetoothctl <<EOF 
 connect F1:05:50:46:F1:9E
 menu gatt 
