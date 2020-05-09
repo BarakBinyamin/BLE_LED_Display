@@ -22,6 +22,11 @@ bash ~/BLE_LED_Display/GUI_/Install.sh
 - [circuit setup](https://github.com/BarakBinyamin/LED-Display/blob/master/README.md), in this project Digital IO pins 2-6 control colunms 0-4, and Digital IO pins 7-11 control rows 0-4.
 - linux
 - python3
+- bluez
+
+```bash
+$sudo apt install bluez
+```
 
 ## Deployment
 
