@@ -7,7 +7,11 @@ These instructions will give you the tools necessary to comunicate with an ardui
 
 ### Prerequisites
 
-- bluetoothctl
+- bluez, bluetoothctl
+
+```bash
+sudo apt install bluez
+```
 
 ### Talking with the arduino
 
