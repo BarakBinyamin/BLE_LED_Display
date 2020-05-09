@@ -1,7 +1,7 @@
 
-#replace the mac-adress, follow  the bluetooth tutorial
+#GOOBER is replaced by the arduino's MAC-Address
 '''bluetoothctl <<EOF 
-connect F1:05:50:46:F1:9E
+connect GOOBER
 menu gatt 
 select-attribute "/org/bluez/hci0/dev_F1_05_50_46_F1_9E/service000a/char000b19b10001-e8f2-537e-4f6c-d104768a1214"
 sleep 5
