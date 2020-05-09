@@ -1,18 +1,18 @@
 
 #GOOBER is replaced by the arduino's MAC-Address
 '''bluetoothctl <<EOF 
-connect GOOBER
+connect GOOBER1
 menu gatt 
-select-attribute "/org/bluez/hci0/dev_F1_05_50_46_F1_9E/service000a/char000b19b10001-e8f2-537e-4f6c-d104768a1214"
+GOOBER2
 sleep 5
 write 2
 EOF'''
 
-echo 'connect GOOBER'
+echo 'connect MAC_ADDRESS'
 sleep 0.1
 echo 'menu gatt'
 sleep 0.1
-echo "select-attribute /org/bluez/hci0/dev_F1_05_50_46_F1_9E/service000a/char000b"
+echo "select-attribute SERVCE_ATTRIBUTE"
 sleep 0.1
 
 
