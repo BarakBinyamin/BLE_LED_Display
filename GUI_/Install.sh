@@ -2,7 +2,7 @@ path="/home/${USER}"
 
 goober=$1
 
-echo $goober >  ${path}/BLE_LED_Display/GUI_/config.txt
+echo "connect ${goober}" >  ${path}/BLE_LED_Display/GUI_/config.txt
 
 pathConfig=${path}/BLE_LED_Display/GUI_/config.txt
 
