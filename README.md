@@ -9,7 +9,7 @@ This project combines the [nano ble 33](https://www.amazon.com/Arduino-Nano-33-B
 
 ## Requirements
 
-- [circuit setup](https://github.com/BarakBinyamin/LED-Display/blob/master/README.md), in this project Digital IO pins 2-6 control colunms 0-4, and Digital IO pins 7-11 control rows 0-4.
+- [circuit setup](https://github.com/BarakBinyamin/LED-Display/blob/master/README.md#led-display), in this project Digital IO pins 2-6 control colunms 0-4, and Digital IO pins 7-11 control rows 0-4.
 - linux
 - python3
 - bluez,  ```sudo apt install bluez```
@@ -27,12 +27,12 @@ bash ~/BLE_LED_Display/GUI_/Install.sh ARDUINO_MAC_ADDRESS SERVICE_ATTRIBUTE
 
 ## Deployment
 
-1. Upload the [sketch](https://github.com/BarakBinyamin/BLE_LED_Display/blob/master/Arduino%20sketches/BLEArduino.ino)
+1. Upload the [sketch](https://github.com/BarakBinyamin/BLE_LED_Display/blob/master/Arduino%20sketches/BLEArduino.ino#L1)
 2. Power up the arduino
 3. Trust and launch the appliaction
 
 ## Going Further
-Take a look at the [starter code](https://github.com/BarakBinyamin/BLE_LED_Display/tree/master/starter%20code) for examples and walkthroughs to build your own bluetooth arduino sketch
+Take a look at the [starter code](https://github.com/BarakBinyamin/BLE_LED_Display/tree/master/starter%20code#starter-code) for examples and walkthroughs to build your own bluetooth arduino sketch
 ## Recources
 
 - [Blutooth Arduino example](https://github.com/arduino-libraries/ArduinoBLE/blob/master/examples/Peripheral/LED/LED.ino)     
